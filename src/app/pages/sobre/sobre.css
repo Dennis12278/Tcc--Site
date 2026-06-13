@@ -1,0 +1,53 @@
+.pagina {
+  padding: 40px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #1e3a8a;
+  font-size: 3rem;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.diretor {
+  background: #2563eb;
+  color: white;
+  padding: 15px;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.linha {
+  width: 3px;
+  height: 40px;
+  background: #2563eb;
+  margin: 10px auto;
+}
+
+.areas {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.areas div {
+  background: #2563eb;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
