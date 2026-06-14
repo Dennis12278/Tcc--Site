@@ -19,7 +19,7 @@
   overflow:hidden;
 }
 
-/* Mancha vermelha principal */
+/* Mancha roxa principal */
 
 .container::before{
 
@@ -32,8 +32,8 @@
 
   background:radial-gradient(
     circle,
-    rgba(255,90,90,.35) 0%,
-    rgba(255,90,90,.12) 40%,
+    rgba(168,85,247,.35) 0%,
+    rgba(168,85,247,.12) 40%,
     transparent 70%
   );
 
@@ -98,8 +98,6 @@
   overflow:hidden;
 }
 
-/* brilho interno do card */
-
 .card::before{
 
   content:"";
@@ -112,8 +110,8 @@
 
   background:radial-gradient(
     circle,
-    rgba(255,90,90,.25) 0%,
-    rgba(255,90,90,.08) 45%,
+    rgba(168,85,247,.25) 0%,
+    rgba(168,85,247,.08) 45%,
     transparent 75%
   );
 
@@ -131,11 +129,11 @@
 
   transform:translateY(-10px);
 
-  border-color:#ff7a5c;
+  border-color:#a855f7;
 
   box-shadow:
-  0 0 25px rgba(255,90,90,.25),
-  0 0 60px rgba(255,90,90,.15);
+  0 0 25px rgba(168,85,247,.25),
+  0 0 60px rgba(168,85,247,.15);
 }
 
 .logo{
@@ -149,8 +147,8 @@
   z-index:2;
 
   filter:
-  drop-shadow(0 0 10px rgba(255,90,90,.3))
-  drop-shadow(0 0 20px rgba(255,90,90,.2));
+  drop-shadow(0 0 10px rgba(168,85,247,.4))
+  drop-shadow(0 0 20px rgba(168,85,247,.3));
 }
 
 .card h1{
@@ -167,7 +165,7 @@
 
   text-shadow:
   0 0 10px rgba(255,255,255,.2),
-  0 0 25px rgba(255,90,90,.25);
+  0 0 25px rgba(168,85,247,.35);
 }
 
 .card p{
@@ -188,19 +186,15 @@
 @media(max-width:768px){
 
   .card{
-
     width:90%;
-
     min-height:350px;
   }
 
   .logo{
-
     width:140px;
   }
 
   .card h1{
-
     font-size:2.2rem;
   }
 }
